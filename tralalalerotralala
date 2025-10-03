@@ -9,7 +9,7 @@ Clear-Host
 
 Write-Output ""
 Write-Output ""
-Write-Host -ForegroundColor Cyan "Bro yo ya me aburri ahora te voy a dejar en manos de mi mejor amigo tralalero tralala :v${reset}"
+Write-Host -ForegroundColor Cyan "Usuario, ahora te voy a dejar en manos de mi mejor amigo tralalero tralala, el cual me va a ayudar a hacerte la SS.${reset}"
 Write-Output ""
 Write-Host -ForegroundColor Blue  "
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -40,7 +40,7 @@ Write-Host -ForegroundColor Blue  "
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 "
 Write-Output ""
-Write-Host -ForegroundColor White "Hey bro, Tralalero Tralala se volvio ScreenSharer, usalo con cuidado.${reset}"
+Write-Host -ForegroundColor White "Tralalero Tralala, the best ScreenSharer.${reset}"
 Write-Output ""
 # Extensiones de archivos a buscar
 $extensions = "*.exe","*.dll","*.jar","*.bat"

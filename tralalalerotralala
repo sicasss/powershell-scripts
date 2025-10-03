@@ -6,7 +6,6 @@ $green = "${esc}[32m"
 $reset = "${esc}[0m"
 
 Clear-Host
-
 Write-Output ""
 Write-Output ""
 Write-Host -ForegroundColor Cyan "Bro yo ya me aburri ahora te voy a dejar en manos de mi mejor amigo tralalero tralala :v${reset}"
@@ -54,7 +53,7 @@ $strings = @("mouse_event","AutoClicker","[...]","[NONE]","[Bind: ","exelon","Ai
              "Waiting for minecraft process...","Autoclicker->","MoonDLL.pdb","slinky_init","m#!WO","4<|C/p",
              "Sapphire LITE","Toggle Left Clicker","W0#!&", "cmd.exe", "powershell")
 
-# Cadenas a ignorar en archivos DLL
+
 $ignoreStringsForDll = @("Misc", "mouse_event", "uiAccess='false'", "rEACH", "SelfDestruct", "mouse_button", "DoubleClick")
 
 $path = "C:\Users"

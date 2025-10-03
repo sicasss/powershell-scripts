@@ -40,7 +40,7 @@ Write-Host -ForegroundColor Blue  "
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 "
 Write-Output ""
-Write-Output "${White} Hey bro, Tralalero Tralala se volvio ScreenSharer, usalo con cuidado.${reset}"
+Write-Output "${red} Hey bro, Tralalero Tralala se volvio ScreenSharer, usalo con cuidado.${reset}"
 Write-Output ""
 # Extensiones de archivos a buscar
 $extensions = "*.exe","*.dll","*.jar","*.bat"
@@ -121,7 +121,7 @@ $ErrorActionPreference = 'Continue'
 Write-Progress -Activity "Completed" -Status "Done" -PercentComplete 100 -Id 1 -Completed
 
 # Mostrar resultados en una vista de rejilla
-$results | Out-GridView -Title "Resultados de la búsqueda de cadenas"
+$results | Out-GridView -Title "Resultados de la búsqueda de Tralalero Tralala"
 
 $allAccessErrors = $fileAccessErrors + $foldersAccessErrors
 if ($allAccessErrors.Count -gt 0) {

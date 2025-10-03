@@ -1,11 +1,11 @@
 $esc = [char]27  # Secuencia de escape
 
-# Definir colores ANSI
 $red = "${esc}[31m"
 $yellow = "${esc}[33m"
 $green = "${esc}[32m"
 $reset = "${esc}[0m"
 
+Clear-Host
 
 Write-Output ""
 Write-Output ""
@@ -40,7 +40,7 @@ Write-Host -ForegroundColor Blue  "
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 "
 Write-Output ""
-Write-Output "${red} Hey bro, Tralalero Tralala se volvio ScreenSharer, usalo con cuidado.${reset}"
+Write-Host -ForegroundColor White "Hey bro, Tralalero Tralala se volvio ScreenSharer, usalo con cuidado.${reset}"
 Write-Output ""
 # Extensiones de archivos a buscar
 $extensions = "*.exe","*.dll","*.jar","*.bat"

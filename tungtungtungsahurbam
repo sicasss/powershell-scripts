@@ -36,7 +36,7 @@ function Get-Signature {
 
 Clear-Host
 
-Write-Host -ForegroundColor Brown " 
+Write-Host -ForegroundColor DarkYellow " 
  _____                    _____                    _____                  
 |_   _|   _ _ __   __ _  |_   _|   _ _ __   __ _  |_   _|   _ _ __   __ _ 
   | || | | | '_ \ / _` |   | || | | | '_ \ / _` |   | || | | | '_ \ / _` |

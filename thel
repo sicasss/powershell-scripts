@@ -37,24 +37,63 @@ function Get-Signature {
 Clear-Host
 
 Write-Host -ForegroundColor DarkYellow " 
- _____                    _____                    _____                  
-|_   _|   _ _ __   __ _  |_   _|   _ _ __   __ _  |_   _|   _ _ __   __ _ 
-  | || | | | '_ \ / _` |   | || | | | '_ \ / _` |   | || | | | '_ \ / _` |
-  | || |_| | | | | (_| |   | || |_| | | | | (_| |   | || |_| | | | | (_| |
-  |_| \__,_|_| |_|\__, |   |_| \__,_|_| |_|\__, |   |_| \__,_|_| |_|\__, |
- ____    _    _   |___/ _ ____  _ _ _      |___/                    |___/ 
-/ ___|  / \  | | | | | | |  _ \| | | |                                    
-\___ \ / _ \ | |_| | | | | |_) | | | |                                    
- ___) / ___ \|  _  | |_| |  _ <|_|_|_|                                    
-|____/_/   \_\_| |_|\___/|_| \_(_|_|_)                                    
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢀⣤⠒⠒⠒⠚⣭⡟⠻⠍⠉⠉⠄⠀⠀⠀⠀⠌⢳⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⠘⡌⡀⠀⠴⠁⢻⠀⠀⠀⠀⢰⠀⠀⠀⠀⠀⢸⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⡟⠠⠀⡇⢰⢛⡶⡝⠀⠀⢠⠀⠸⠀⠀⠀⢀⠀⠈⡇⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⡇⠀⣀⡆⠏⣻⣃⠁⠀⠀⠀⠀⠀⠆⠀⠐⠀⠐⠀⡇⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢰⡗⠁⣠⣤⡤⡀⠀⠑⣄⠀⠀⠀⠀⣀⣨⣤⣤⣀⠀⢸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢹⣴⣻⣧⣤⣼⣤⣀⢀⠀⠁⠀⣰⣾⣋⣽⣿⢿⣤⢕⡘⡆⠀⠀
+⠀⠀⠀⠀⠀⠀⣾⣿⢟⡭⠓⠒⠩⣟⣿⡇⠀⢰⣿⢟⠍⠂⠀⠈⠙⣷⣸⠃⠀⠀
+⠀⠀⠀⠀⠀⠀⡿⡟⠁⢰⣿⣯⡦⠈⣿⣿⠀⣾⣇⠃⢀⣾⣥⣬⡄⠘⣿⡀⠀⠀
+⠀⠀⠀⠀⠀⢨⡇⡷⣤⡈⠻⠿⠃⢀⣿⣿⠀⣿⣏⣇⠈⠻⠛⠗⢁⣼⠋⢷⠀⠀
+⠀⠀⠀⠀⠀⢹⠁⠸⢾⣷⣦⣤⣴⡾⠁⢡⠀⠠⠉⠫⣳⠦⡤⣾⡿⠋⠀⢸⠀⠀
+⠀⠀⠀⠀⠀⢸⣀⠀⠀⠈⠉⠉⠀⠀⢀⠏⠀⠀⠡⡀⠀⠉⠉⠉⠁⠀⠀⢸⠄⠀
+⠀⠀⠀⠀⠀⠈⢻⡷⣖⣶⣤⣤⣶⡀⠘⡈⠀⠀⠄⠑⣶⣤⣀⣀⣤⣶⣾⠟⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢳⣶⣴⣿⡿⠋⣤⠀⠀⡀⠀⠀⢀⠘⢯⣽⣿⣿⣾⠃⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⡆⣹⣿⢤⡀⣿⣿⣿⣭⣽⡿⠟⢀⣠⠬⢛⢹⡇⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⡏⢸⢸⠳⣝⢶⣬⣉⣉⣠⣤⡶⢛⠕⠀⡄⡎⡇⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣿⢸⠘⡌⠛⢯⠒⠋⠭⣭⠵⠖⠉⠀⡰⡃⡠⡇⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⢿⢠⡇⡀⢤⠀⠉⠉⠿⠟⠁⠀⢀⡴⡇⠀⠀⢇⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣼⡞⠸⡇⠀⠐⠈⠒⠤⠤⣤⣤⣖⠷⠁⠀⠀⣠⠋⠇⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢰⣿⣷⠀⣇⠇⠠⠤⡀⠅⠘⠛⢻⠁⠀⠀⠀⠀⣿⡁⢰⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣸⣿⣿⡀⡗⡬⢀⠀⠀⠀⠀⠀⠸⠀⠀⠀⠸⠀⣿⠀⠈⡆⠀⠀
+⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⡗⣌⢘⠀⠀⠀⠀⠀⠐⠀⠀⠀⠈⠀⣻⣧⠀⢱⡄⠀
+⠀⠀⠀⠀⠀⢸⣿⣿⡟⣧⣣⡇⠈⠄⠀⠀⠀⠀⠘⠀⠀⠀⠀⠀⡿⣿⣷⣼⠁⠀
+⠀⠀⠀⠀⠀⢸⣿⣿⡇⣿⡇⡇⠀⡇⠀⠀⠂⠀⢠⠀⠀⠀⠀⠀⡇⡹⠁⢸⡇⠀
+⠀⠀⠀⠀⠀⢸⡟⢻⡇⣸⢧⡇⠀⡇⠀⠀⠀⠀⢘⠀⠀⠀⠀⠀⡇⡇⠀⢸⠁⠀
+⠀⠀⠀⠀⠀⠀⣯⡎⣿⣿⡏⠀⠀⡇⠀⠐⠀⠀⢸⠀⠀⠀⠀⠐⠀⠇⠠⡇⠀⠀
+⠀⠀⠀⠀⠀⠀⣹⡆⢺⣿⣇⢀⠀⡇⠀⠈⠀⠀⠸⠘⠄⠀⠀⠀⢸⠀⣸⠁⠀⠀
+⠀⠀⠀⠀⠀⠀⢿⢰⣜⣿⣿⡗⣠⡇⠀⠀⠀⠀⢸⢢⠀⠀⠀⢸⢀⣠⢳⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠘⢧⡻⣿⠀⢹⠲⡇⠄⠠⠀⠀⢼⠸⠀⠀⠀⡽⣸⡗⣼⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⢳⠾⠘⣿⡅⣿⠐⠀⢀⠀⣸⡃⠀⢀⣼⣷⣋⠜⠃⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢨⠃⢐⣿⠙⣿⡟⠒⠚⠚⠛⡷⠖⣿⡿⠛⠁⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣼⠀⡘⡏⠀⣿⠁⠀⠀⠀⠀⡏⠃⢹⡇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡇⢀⡟⣗⡃⢾⡇⠀⠀⠀⠀⡇⠀⠸⣷⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢰⠃⠸⣧⠿⠧⢸⡇⠀⠀⠀⢰⡇⠠⠤⣻⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣼⠀⣼⢈⣗⠀⢘⣿⠀⠀⠀⢸⣷⢀⣲⡏⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢠⡏⠀⢹⢸⣿⣿⠞⢹⠀⠀⠀⢸⡛⠿⠟⡧⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣼⠀⠀⡌⢸⣏⡆⠀⢸⠀⠀⠀⢸⣹⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢰⠏⠀⠀⡅⠀⣿⣮⠀⢸⠀⠀⠀⢸⣯⠀⢠⡇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⡾⠁⠀⠀⡇⠀⣿⣯⠀⢸⠀⠀⠀⢸⣯⠃⠀⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢸⠇⢠⠁⠀⡇⠀⣿⡧⠀⢸⠀⠀⠀⢸⢻⡇⠈⡇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⡺⠀⠒⠀⢠⠃⣰⣿⣧⠀⢺⠀⠀⠀⡼⠽⠘⡰⢳⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢠⠇⠀⡄⠀⢸⣤⣿⠃⠀⠃⠘⡇⡀⢰⡇⠀⠀⠱⠘⢧⡀⠀⠀⠀⠀⠀
+⠀⠀⠂⡼⠀⢠⣀⠀⢸⡟⠁⠀⠀⠀⡀⣯⠄⢸⣷⠀⠀⠀⠀⠪⡳⣄⠀⠀⠀⠀
+⠀⠀⢸⠇⠀⠈⠍⠀⡈⠀⠀⠀⠀⠀⢹⡿⠒⢿⣿⠆⠀⠀⠀⢢⠀⠈⢳⡀⠀⠀
+⠀⠀⡾⠀⠆⠃⡆⠀⠃⡠⠀⣀⠀⠀⣼⣏⠀⠌⣿⣧⠀⠀⢠⣠⣧⣀⡄⠙⢧⡀
+⠀⢸⠃⠀⠨⠸⠁⠀⣀⠗⣼⣗⠶⢤⣿⡇⠀⠀⢸⣿⣄⠤⠿⣷⡬⠿⣆⠐⢢⣽
+⠀⣾⡆⠀⠈⢰⠀⢀⡇⢠⣿⠃⠀⢰⣿⠁⠀⠀⠀⢻⣧⠀⠀⠘⣷⣀⣨⣷⣬⡯
+⢀⣇⠀⠀⢣⠊⠀⠀⣿⣿⣇⠠⠄⣾⠂⠀⠀⠀⠀⠀⠻⣷⣲⣞⡿⠞⠛⠉⠁⠀
+⣾⡇⠄⠠⠸⡀⠀⢸⣿⠹⢻⣿⣟⠉⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠀⠀⠀⠀⠀⠀                                 
 " 
 Write-Host "";
-Write-Host -ForegroundColor Blue "Tranqui bro, estas en manos de expertos.  / FORKED & EDITED by corregir"; -NewLine
+Write-Host -ForegroundColor Red "Este es el BamParser de Tung Tung Sahur, usalo con cuidado o si no te pega."; -NewLine
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
 if (!(Test-Admin)) {
-    Write-Warning "ejecutalo como admin pepe"
+    Write-Warning "Sahur te va a pegar si no lo ejecutas como Admin"
     Start-Sleep 10
     Exit
 }
@@ -68,7 +107,7 @@ if (!(Get-PSDrive -Name HKLM -PSProvider Registry)){
 $bv = ("bam", "bam\State")
 Try{$Users = foreach($ii in $bv){Get-ChildItem -Path "HKLM:\SYSTEM\CurrentControlSet\Services\$($ii)\UserSettings\" | Select-Object -ExpandProperty PSChildName}}
 Catch{
-    Write-Warning "Error Parseando BAM Key. Probablemente no soporta tu version de Windows :( "
+    Write-Warning "Error Parseando BAM Key. Probablemente no soporta tu version de Windows, Sahur se enojo >:("
     Exit
 }
 $rpath = @("HKLM:\SYSTEM\CurrentControlSet\Services\bam\","HKLM:\SYSTEM\CurrentControlSet\Services\bam\state\")
@@ -81,8 +120,8 @@ $Bam = Foreach ($Sid in $Users){$u++
             
         foreach($rp in $rpath){
            $BamItems = Get-Item -Path "$($rp)UserSettings\$Sid" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Property
-           Write-Host -ForegroundColor Green "Extrayendo " -NoNewLine
-           Write-Host -ForegroundColor Blue "$($rp)UserSettings\$SID"
+           Write-Host -ForegroundColor DarkYellow "Sahur esta extrayendo " -NoNewLine
+           Write-Host -ForegroundColor Red "$($rp)UserSettings\$SID"
            $bi = 0 
 
             Try{
@@ -131,4 +170,4 @@ $Bam | Out-GridView -PassThru -Title "Entradas BAM: $($Bam.count)  - Zona Horari
 $sw.stop()
 $t = $sw.Elapsed.TotalMinutes
 Write-Host ""
-Write-Host "Se tardo $t Minutos" -ForegroundColor Yellow
+Write-Host "Se tardo $t Minutos" -ForegroundColor DarkYellow

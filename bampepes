@@ -47,8 +47,6 @@ Write-Host -ForegroundColor Brown "
 \___ \ / _ \ | |_| | | | | |_) | | | |                                    
  ___) / ___ \|  _  | |_| |  _ <|_|_|_|                                    
 |____/_/   \_\_| |_|\___/|_| \_(_|_|_)                                    
-
-
 " 
 Write-Host "";
 Write-Host -ForegroundColor Blue "Tranqui bro, estas en manos de expertos.  / FORKED & EDITED by corregir"; -NewLine

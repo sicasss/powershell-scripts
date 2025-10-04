@@ -1,0 +1,49 @@
+# Ruta del archivo strings.txt
+$basePath = Get-Location
+$stringsFile = Join-Path $basePath "strings.txt"
+
+# Verifica si existe el archivo
+if (-Not (Test-Path $stringsFile)) {
+    Write-Error "No se encontró el archivo strings.txt en el directorio actual."
+    exit
+}
+
+# Lee los paths de .exe desde el archivo
+$exePaths = Get-Content $stringsFile
+
+foreach ($exePath in $exePaths) {
+    Write-Host "`nAnalizando: $exePath"
+
+    if (Test-Path $exePath) {
+        # Verifica firma digital
+        try {
+            $signature = Get-AuthenticodeSignature $exePath
+            if ($signature.Status -eq 'Valid') {
+                Write-Host "✔ Firma digital válida."
+            } elseif ($signature.Status -eq 'NotSigned') {
+                Write-Host "⚠ El archivo no tiene firma digital."
+            } else {
+                Write-Host "❌ Firma digital inválida o corrupta."
+            }
+        } catch {
+            Write-Host "❌ Error al verificar la firma: $_"
+        }
+    } else {
+        Write-Host "❌ El archivo no existe. Buscando en el USN Journal..."
+
+        # Extrae la unidad del path
+        $drive = ($exePath -split ':')[0] + ":"
+
+        # Usa fsutil para consultar el USN Journal (requiere privilegios elevados)
+        try {
+            $usnOutput = fsutil usn readdata $drive | Out-String
+            if ($usnOutput -match [regex]::Escape($exePath)) {
+                Write-Host "🔍 Se encontró una entrada en el USN Journal relacionada con el archivo."
+            } else {
+                Write-Host "❌ No se encontró información en el USN Journal."
+            }
+        } catch {
+            Write-Host "❌ Error al acceder al USN Journal: $_"
+        }
+    }
+}
